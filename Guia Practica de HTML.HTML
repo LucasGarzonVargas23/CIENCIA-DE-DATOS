@@ -1,0 +1,241 @@
+<!--ESTA ES LA GUIA PARA LAS ETIQUETAS BASICAS DE HTML OJOOO HTML5 TIENE UNAS DIFERENTES PERO ESTA ES LA GUIA BASICA PARA ENTENDER-->
+
+<!--CADA VEZ QUE SE HAGA UN CAMBIO SE DEBE DAR CONTROL + S ESTO ME MOSTRARA EL CAMBIO EN LA PAGINA WEB-->
+<!--ALT+SHIFT+F SIRVE PARA ACOMODAR EL CODIGO-->
+<!--ALT+Z SIRVE PARA TRABAJAR EN UNA SOLA PAGINA CON EL TEXTO AJUSTADO-->
+
+<HTML>
+
+<HEAD>
+    <TITLE>Guia practica HTML</TITLE><!--NOMBRE QUE LLEVARÁ LA VIÑETA-->
+</HEAD>
+<!---- SE ALMACENA TODA DOCUMENTACIÓN PARA QUE EL NAVEGADOR LEA EL DOCUMENTO COMPLETO
+    Y A SU VEZ PUEDA MOSTRARLO AL USUARIO LENGUAJE - TECLADO - TITULO DE LA PESTAÑA--->
+
+<BODY>
+    <!--SE VA ALMACENAR TODA LA DOCUMENTACION QUE SE LE VA A MOSTRAR AL USUARIO
+    ACA VAN TODAS LAS VIÑETAS QUE SE MUESTRAN EN PANTALLA A LA HORA DE ABRIR LA PAGINA WEB-->
+
+    <!--PARRAFOS-->
+
+    <P><!--ESTA VIÑETA LO QUE HACE ES RECONOCER UN TEXTO INDICANDO ES UN INICIO DE PARRAFO-->PRIMER EJEMPLO DE PARRAFO
+    </P>
+    <P>SUGUNDO EJEMPLO DE PARRAFO</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel quod rem saepe necessitatibus quidem, excepturi
+        animi ipsa <BR /><!--LO QUE HACE ES DARME UN SALTO DE LINEA--> doloremque iusto ad suscipit dolorum veniam
+        laborum beatae, assumenda inventore, in fugiat.</P>
+
+    <!--TITULOS-->
+
+    <H1>TITULO H1</H1>
+    <!--DEFINEN EL TAMAÑO DE LA LETRA DE LOS ENCABEZADOS VAN DE LA 1 A LA 6 (POR NORMA ES IMPORTANTE QUE SE OCUPE UN TIPO DE H EJM EN EL TEXTO DE LA PAGINA PARA LOS TITULOS OCUPAR SOLO H1)-->
+    <H2>TITULO H2</H2>
+    <H3>TITULO H3</H3>
+    <H4>TITULO H4</H4>
+    <H5>TITULO H5</H5>
+    <H6>TITULO H6</H6>
+
+    <!--FORMATO DE TEXTO ESTAS SON DE HTML EN HTML 5 SON OTRAS POR SU ACTUALIZACIÓN PERO SON LA BASE-->
+
+    <P>TEXTO DE EJEMPLO</P>
+    <P><B>TEXTO DE EJEMPLO</P></B><!--B SIRVE PARA COLOCAR EN NEGRITA-->
+    <P><I>TEXTO DE EJEMPLO</P></I><!--I SIRVE PARA COLOCAR EN CURSIVA LA LETRA-->
+    <P><BIG>TEXTO DE EJEMPLO</P></BIG><!--BIG SIRVE PARA COLOCAR UN POCO MAS GRANDE LA LETRA-->
+    <P><SMALL>TEXTO DE EJEMPLO</P></SMALL><!--SMALL SIRVE PARA COLOCAR UN POCO MAS PEQUEÑA LA LETRA-->
+    <P><STRONG>TEXTO DE EJEMPLO</P>
+    </STRONG><!--STRONG SIRVE PARA COLOCAR UN POCO MAS GRUESA Y EN NEGRITA LA FUENTE Y EL TAMAÑO DE LA LETRA-->
+    <P>2<SUB>10</P></SUB><!--SUB SIRVE PARA CREAR UN SUBINDICE EJEMPLO 2 RAIZ DE 10-->
+    <P>2<SUP>10</P></SUP><!--SUB SIRVE PARA CREAR UN EXPONENTE EJEMPLO 2 A LA 10-->
+    <P><INS>TEXTO DE EJEMPLO</INS></P><!--ESTA SUBRAYA-->
+    <P><DEL>TEXTO DE EJEMPLO</DEL></P><!--ESTA TACHA EL TEXTO-->
+
+    <!--INGRESAR IMAGENES-->
+
+    <!--OPCION1-->
+    <!--LA IMAGEN DEBE ESTAR EN LA MISMA CARPETA DONDE SE COLOCA EL ARCHIVO-->
+    <!--LA VIÑETA QUE SE OCUPA PARA CARGAR UNA IMAGEN ES IMG LA QUE VAMOS A VER ES EN HTML EN HTML5 CAMBIA-->
+    <!-- <IMG SRC=" " ALT=""/>   UN ATRIBUTO ES UNA CUALIDAD O CARACTERISTICA QUE MODIFICA AL OBJETO. (SRC) ES LA RUTA DONDE ESTA LA IMAGEN Y (ALT) ES NOMBRE ALTERNATIVO QUE SE LE PUEDE DAR-->
+    <IMG SRC="imgHTML.png" ALT="" /><!--RECORDAR PARA ESTE CASO LA IMAGEN DEBE ESTAR EN LA MISMA RUTA-->
+
+    <!--OPCION 2-->
+    <!--SI LA IMAGEN LA DESEO TOMAR DESDE OTRA CARPETA LO QUE HAGO ES MAPEAR LA RUTA-->
+    <!--LA CARPETA TIENE QUE ESTAR DENTRO DE LA RUTA DONDE ESTA EL HTML INDEX-->
+    <IMG SRC="IMAGENES/imgHTML2.png" ALT="" />
+
+    <!--TAMAÑO Y ANCHO DE LAS IMAGENES-->
+    <!--WIDTH ES EL ANCHO DE LA IMAGEN SE PUEDE COLOCAR EN PIXELES (PX) O EN PORCENTAJE (%)-->
+    <!--HEIGHT ES LA ALTURA SE PUEDE COLOCAR EN PIXELES (PX) O EN PORCENTAJE (%)-->
+
+    <IMG SRC="IMAGENES/imgHTML2.png" ALT="" width="150px" height="150px" />
+    <!--LA CARPETA TIENE QUE ESTAR DENTRO DE LA RUTA DONDE ESTA EL HTML INDEX-->
+
+    <!--BORDER SIRVE PARA COLOCAR UN BORDE O MARCO A LAS IMAGENES ES PROPIO DE HTML EN HTML5 NO SE OCUPA-->
+
+    <IMG SRC="IMAGENES/imgHTML2.png" ALT="" width="150px" height="150px" border="5px" />
+
+    <!--INGRESAR ENLACES PARA REDIRECCIONAR A OTRA PAGINA--><!--IMPORTANTEEEEEEEEE!!!!-->
+
+    <!--LA ETIQUETA QUE SE OCUPA ES: <A HREF="WWW.GOOGLE.COM"> SE DEBE COLOCAR LA URL CON EL PROTOCOLO COMPPLETO HTTPS:// </A>-->
+    <P><A href="https://www.google.com">Dar click para ir a Google</A></P>
+
+    <!-- TARGET="_blank" PARA QUE NO ME SAQUE DE LA PAGINA SINO SE ABRA UNA PESTAÑA-->
+    <P><A target="_blank" href="https://www.google.com">Dar click para ir a Google</A></P>
+
+    <!--EN HTML EL OBJETIVO ES CADA INDEX ES UNA PAGINA PERO EL OBJETIVO ES MOVERME ENTRE DIFERENTES PAGINAS CREADAS POR EL MISMO DESARROLADOR EN ESTE CASO LO QUE SE HACE ES ANIDAR EL ENLACE PARA QUE ME LLEVE A LA PAGINA2 POR EJEMPLO DE MI CREACIÓN (LA PAGINA DEBE ESTAR DENTRO DE LA MISMA RUTA QUE TENGO EL INDEX)-->
+    <P><A target="_blank" href="Pagina2.HTML">Dar click para ir a Pagina 2</A></P>
+
+
+    <!--LISTAS-->
+
+    <!--HAY 3 TIPOS DE LISTA (ORDENADAS - DESORDENADAS - DEFINICIONES)-->
+
+    <!--LISTA ORDENADAS-->
+
+    <!--OL ME DEFINIRA EN QUE VOY HACER UNA LISTA ORDENDADA Y VOY A LISTAR CADA ARGUMENTO POR <LI>-->
+    <OL>
+        <LI>Papas</LI>
+        <LI>Queso</lI>
+        <LI>Tomates</lI>
+        <LI>Crema</lI>
+    </OL>
+    <!--START ME SIRVE PARA INICIALIZAR LA LISTA DESDE LA DESCRIPCIÓN QUE LE COLOQUE EJEMPLO-->
+    <!--TYPE MODIFICA EL TIPO DE INDICADOR QUE SE OCUPARA ESTA A= LISTAR POR LETRAS DE ABECEDARIO EN MAYUSCULA. ESTA EL 1 QUE LOS LISTA POR LOS NUMEROS. ESTA EL a EN MINUSCULA QUE LISTA POR LETRAS DEL ABECEDARIO EN MINUSCULA. I EN MAYUSCULA PARA COLOCAR NUMEROS ROMANOS EN MAYUSCULA. i EN MINUSCULA PARA VER NUMEROS ROMANOS EN MINUSCULA. POR DEFECTO TRAE EL DE NUMERACIÓN-->
+    <!--REVERSED LO QUE HACE ES INVERTIR EL LISTADO-->
+
+    <OL start="10" type="I" reversed>
+        <LI>Papas</LI>
+        <LI>Queso</lI>
+        <LI>Tomates</lI>
+        <LI>Crema</lI>
+    </OL>
+
+    <!--LISTA DESORDENADA-->
+    <!--ESTA LISTA MUESTRA VIÑETAS DESDE HTML NO SE PUEDE CAMBIAR EL SIMBOLO SE CAMBIA DESDE CSS-->
+    <!--SE REPRESENTA CON UL Y SUS VALORES SE LISTAN EN LI-->
+    <UL>
+        <LI>Gallina</LI>
+        <LI>Perro</lI>
+        <LI>Gato</lI>
+        <LI>Conejo</lI>
+    </UL>
+
+    <!--DENTRO DE LAS LISTAS SE PUEDEN COMBINAR LAS LISTAS ORDENADAS CON LAS LISTAS DESORDENADAS-->
+    <!--SE REPRESENTA CON OL Y SUS VALORES SE LISTAN EN LI-->
+    <OL>
+        <LI>ANIMALES:</LI>
+        <!--LISTAS ANIDADAS--><!--COMBINAR UNA LISTA ORDENADA Y DENTRO INGRESAR UNA LISTA DESORDENADA-->
+        <UL>
+            <LI>Gallina</LI>
+            <LI>Perro</lI>
+            <LI>Gato</lI>
+            <LI>Conejo</lI>
+        </UL>
+        <LI>PAISES</LI>
+        <UL>
+            <LI>Guatemala</LI>
+            <LI>Salvador</LI>
+            <LI>Honduras</LI>
+            <LI>Costa Rica</LI>
+            <LI>Panama</LI>
+        </UL>
+    </OL>
+
+    <!--LISTA DE DEFINICIONES-->
+    <!--SE REPRESENTA CON DL (DEFINITION LIST)-->
+    <!--DT PARA COLOCAR LA PALABRA CLAVE-->
+    <!--DD PARA COLOCAR LA DESCRIPCION DE LA PALABRA CLAVE-->
+    <DL>
+        <DT>Rojo</DT>
+        <DD>Color Basico</DD>
+
+        <DT>Aguila</DT>
+        <DD>Animales del tipo Ave</DD>
+    </DL>
+
+    <!--CREACION DE TABLAS--> <!--IMPORTANTEEEEEEEEE-->
+
+    <TABLE BORDER="1" align="CENTER"> <!--BORDER PARA COLOCAR EL BORDE A LA TABLA. ALIGN PARA ALINEAR LA TABLA E ESTE CASO AL CENTRO-->
+
+        <TR bgcolor="RED"><!--TR ES PARA INGRESAR FILAS, DENTRO SE COLOCA TD-->
+            <TD><!--TD COLUMNA--><!--BGCOLOR PARA DAR COLOR AL FONDO DE LA TABLA-->
+                ANIMALES
+            </TD>
+            <TD>
+                PERRO
+            </TD>
+            <TD>
+                GATO
+            </TD>
+        </TR>
+
+        <TR>
+            <TD bgcolor="BLUE">
+                PLANTAS
+            </TD>
+            <TD>
+                GIRASOLES
+            </TD>
+            <TD>
+                ROSAS
+            </TD>
+
+        </TR>
+
+        <TR>
+            <TD>
+                COMIDA
+            </TD>
+            <TD>
+                CARNE
+            </TD>
+            <TD>
+                VEGETALES
+            </TD>
+        </TR>
+
+    </TABLE>
+
+    <!--CREAR FORMULARIOS-->
+    <!--FORM ES LA ETIQUETA PARA CREAR FORMULARIOS. DENTRO DEL ACTION ES DONDE SE COLOCA LA DIRECCION A DONDE SE ENVIA EL FORMULARIO UNA VEZ SE DILIGENCIA-->
+    <form action="">
+        <P>Selecciona tu Sexo:</P>
+        <input type="radio" name="respuesta"/>Hombre <!--RADIO PERMITE SELECCIONAR UNO SOLO-->
+        <input type="radio" name="respuesta"/>Mujer
+        <br/>
+        <P>Seleccione un número</P>
+        <input type="checkbox"/>1 <!--CHECKBOX PERMITE SELECCIONAR VARIOS-->
+        <input type="checkbox"/>2
+        <br/>
+        <input type="submit" value"Enviar">
+        <br/>
+        <br/>
+        <p>Usuario:</p>
+        <input type="text"><!--PERMITE AGREGAR EN UNA CAJA DE TEXTO EL USUARIO-->
+        <p>Contraseña:</p>
+        <input type="password"><!--PERMITE AGREGAR EN UNA CAJA DE TEXTO LA CONTRASEÑA(LA MUESTRA EN PUNTOS NEGROS)-->
+
+    </form>
+
+    <!--CONTENEDORES EN HTML-->
+    <!--ES UNA VIÑETA QUE A SIMPLEMENTE A VISTA NO MODIFICA PERO QUE SIRVE PARA DAR ESTILOS O FUNCIONABILIDAD A LA PAGINA WEB-->
+    <!--P ES UN CONTENEDOR DE BLOQUE-->
+    <!--B ES UN CONTENEDOR DE LINEA ES DECIR SE COLOCA DENTRO DE LA MISMA(NEGRITA)-->
+
+    <!--DIV ES EL MAS OCUPADO A LA HORA DE AGREGAR CONTENEDORES POR QUE ESTE AGRUPA TODO LO QUE SE INCLUYA DENTRO DE EL (ESTO YA ES CSS)-->
+    <DIV style="color: red;">
+    <P>Este es un ejemplo de contenedor de Bloque</P>
+    <P>Este es un ejemplo <B>salto de bloque</P></B>
+    </DIV>
+    <P style="color: blue;">Este es un ejemplo fuera del bloque</P>
+
+
+
+
+
+
+
+
+
+</BODY>
+
+</HTML>
